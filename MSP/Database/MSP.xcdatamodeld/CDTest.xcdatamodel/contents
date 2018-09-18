@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Consejo" representedClassName="Consejo" syncable="YES" codeGenerationType="class">
+        <attribute name="anonimo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ConsejoDetalle" representedClassName="ConsejoDetalle" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Delegacion" representedClassName="Delegacion" syncable="YES" codeGenerationType="class">
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Discriminacion" representedClassName="Discriminacion" syncable="YES" codeGenerationType="class">
+        <attribute name="anonimo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FechaActualizacion" representedClassName="FechaActualizacion" syncable="YES" codeGenerationType="class">
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="seccion" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Genero" representedClassName="Genero" syncable="YES" codeGenerationType="class">
+        <attribute name="anonimo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Incidente" representedClassName="Incidente" syncable="YES" codeGenerationType="class">
+        <attribute name="anonimo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Informacion" representedClassName="Informacion" syncable="YES" codeGenerationType="class">
+        <attribute name="anonimo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Queja" representedClassName="Queja" syncable="YES" codeGenerationType="class">
+        <attribute name="anonimo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ReportePorEnviar" representedClassName="ReportePorEnviar" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Solicitud" representedClassName="Solicitud" syncable="YES" codeGenerationType="class">
+        <attribute name="anonimo" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SolicitudDetalle" representedClassName="SolicitudDetalle" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Consejo" positionX="-36" positionY="72" width="128" height="135"/>
+        <element name="ConsejoDetalle" positionX="9" positionY="99" width="128" height="75"/>
+        <element name="Delegacion" positionX="-9" positionY="81" width="128" height="135"/>
+        <element name="Discriminacion" positionX="36" positionY="108" width="128" height="120"/>
+        <element name="FechaActualizacion" positionX="-9" positionY="81" width="128" height="90"/>
+        <element name="Genero" positionX="18" positionY="99" width="128" height="120"/>
+        <element name="Incidente" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Informacion" positionX="0" positionY="90" width="128" height="135"/>
+        <element name="Queja" positionX="-18" positionY="81" width="128" height="135"/>
+        <element name="ReportePorEnviar" positionX="18" positionY="108" width="128" height="105"/>
+        <element name="Solicitud" positionX="-54" positionY="36" width="128" height="135"/>
+        <element name="SolicitudDetalle" positionX="0" positionY="90" width="128" height="75"/>
+    </elements>
+</model>
